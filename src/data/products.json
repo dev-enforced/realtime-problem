@@ -35,7 +35,42 @@
       "size": "S",
       "gender": "Women",
       "imgUrl": "https://cdn.anscommerce.com/image/tr:h-690,w-520,cm-pad_resize/data/celio-india/10-aug-2022/8383691_1.jpg"
+    },
+    {
+      "id": 5,
+      "price": 519,
+      "title": "Floral Curved Bottom",
+      "gender": "Women",
+      "size": "L",
+      "brand": "Rust",
+      "imgUrl": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw15a509c8/images/hires/SS22/AND-BOTTOM-FW22AJ142BTX20-BLKWHT-(11).jpg?sw=562&sh=843&sm=fit"
+    },
+    {
+      "id": 6,
+      "price": 1467,
+      "title": "Venom TShirt",
+      "gender": "Men",
+      "size": "L",
+      "brand": "Pokemon",
+      "imgUrl": "https://cdn.anscommerce.com/image/tr:h-690,w-520,cm-pad_resize/data/celio/7feb2022/8063890_2.jpg"
+    },
+    {
+      "id": 7,
+      "price": 812,
+      "title": "Teal Solid Flared Dress",
+      "gender": "Women",
+      "size": "M",
+      "brand": "Calf",
+      "imgUrl": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dwc5a17a87/images/hires/SS22/AND-FW22AJ016DRVEL-DRESS-TEAL--(2).jpg?sw=562&sh=843&sm=fit"
+    },
+    {
+      "id": 8,
+      "price": 902,
+      "title": "Noir Printed T-Shirt",
+      "gender": "Men",
+      "size": "L",
+      "brand": "NASA",
+      "imgUrl": "https://cdn.anscommerce.com/image/tr:h-690,w-520,cm-pad_resize/data/celio-india/30-sep-2021/7925385_1.jpg"
     }
   ]
 }
-
