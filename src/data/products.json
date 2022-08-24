@@ -1,19 +1,41 @@
 {
   "products": [
     {
-      "id": 1
+      "id": 1,
+      "price": 649,
+      "title": "NASA- Black Printed T-Shirt",
+      "brand": "NASA",
+      "size": "M",
+      "gender": "Men",
+      "imgUrl": "https://cdn.anscommerce.com/image/tr:h-690,w-520,cm-pad_resize/data/celio-india/30-sep-2021/7925386_1.jpg"
     },
     {
-      "id": 2
+      "id": 2,
+      "price": 2099,
+      "title": "Solid Straight Top",
+      "brand": "Rust",
+      "size": "L",
+      "gender": "Women",
+      "imgUrl": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw78bbec2e/images/hires/SS22/AND-TOP-SS22AS048TTR-RUST-(2).jpg?sw=562&sh=843&sm=fit"
     },
     {
-      "id": 3
+      "id": 3,
+      "price": 3499,
+      "title": "Black Printed Sweatshirt",
+      "brand": "Pokemon",
+      "size": "S",
+      "gender": "Men",
+      "imgUrl": "https://cdn.anscommerce.com/image/tr:h-690,w-520,cm-pad_resize/data/celio-india/10-aug-2022/8383691_1.jpg"
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
+    {
+      "id": 4,
+      "price": 650,
+      "title": "Pikachu Blushing Red Cheeks Skimmer Pullover Hoodie",
+      "brand": "Pokemon",
+      "size": "S",
+      "gender": "Women",
+      "imgUrl": "https://cdn.anscommerce.com/image/tr:h-690,w-520,cm-pad_resize/data/celio-india/10-aug-2022/8383691_1.jpg"
+    }
   ]
 }
+
