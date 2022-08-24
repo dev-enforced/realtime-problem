@@ -1,20 +1,31 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useReducer } from "react";
+import { filterReducer, initialFilterState } from "reducers";
 import {
   filterProductsWRTBrand,
   filterProductsWRTPrice,
   filterProductsWRTSize,
   sortProductsWRTPrice,
+  cumulativeFiltersAndSorts,
 } from "utilities.js";
 import { useProducts } from "./ProductContext";
 
 const FiltersContext = createContext();
 const FiltersProvider = ({ children }) => {
   const { productsReceived } = useProducts();
-  const [filterState, setFilterState] = useState({
-    sortChoice: "",
-  });
+
+  const [filterState, updateFilterState] = useReducer(
+    filterReducer,
+    initialFilterState
+  );
+
+  const finalProducts = cumulativeFiltersAndSorts(sortProductsWRTPrice)(
+    filterState,
+    [...productsReceived]
+  );
   return (
-    <FiltersContext.Provider value={{ filterState, setFilterState }}>
+    <FiltersContext.Provider
+      value={{ filterState, updateFilterState, finalProducts }}
+    >
       {children}
     </FiltersContext.Provider>
   );
