@@ -1,5 +1,7 @@
+import { useProducts } from "context";
 const App = () => {
-  return <></>;
+  const { loading } = useProducts();
+  return <>{loading ? <>loading....</> : null}</>;
 };
 
 export default App;
