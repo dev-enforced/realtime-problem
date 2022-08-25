@@ -1,7 +1,6 @@
-import { useProducts } from "context";
+import { FiltersBar, ProductDisplay } from "components";
 const App = () => {
-  const { loading } = useProducts();
-  return <>{loading ? <>loading....</> : null}</>;
+  return <></>;
 };
 
 export default App;

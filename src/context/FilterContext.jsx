@@ -6,7 +6,7 @@ import {
   filterProductsWRTSize,
   sortProductsWRTPrice,
   cumulativeFiltersAndSorts,
-} from "utilities.js";
+} from "utilities/index.js";
 import { useProducts } from "./ProductContext";
 
 const FiltersContext = createContext();
