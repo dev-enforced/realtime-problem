@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useReducer } from "react";
+import { createContext, useContext, useReducer } from "react";
 import { filterReducer, initialFilterState } from "reducers";
 import {
   filterProductsWRTBrand,
@@ -18,10 +18,10 @@ const FiltersProvider = ({ children }) => {
     initialFilterState
   );
 
-  const finalProducts = cumulativeFiltersAndSorts(sortProductsWRTPrice)(
-    filterState,
-    [...productsReceived]
-  );
+  const finalProducts = cumulativeFiltersAndSorts(
+    filterProductsWRTBrand,
+    sortProductsWRTPrice
+  )(filterState, [...productsReceived]);
   return (
     <FiltersContext.Provider
       value={{ filterState, updateFilterState, finalProducts }}

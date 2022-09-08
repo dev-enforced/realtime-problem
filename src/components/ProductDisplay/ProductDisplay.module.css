@@ -1,0 +1,15 @@
+.product_display_parent_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .product_display_parent_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 480px) {
+  .product_display_parent_container {
+    grid-template-columns: 1fr;
+  }
+}
